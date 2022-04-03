@@ -1,10 +1,10 @@
 import "antd/dist/antd.css";
-import Table from "./Table";
+import { EditTable } from "./Table";
 
-const AdminUi = () => {
+export const AdminUi = () => {
   return (
     <div>
-      <Table />
+      <EditTable />
     </div>
   );
 };
